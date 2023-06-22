@@ -19,7 +19,7 @@ jobs:
         ELECTRON_EXTRA_LAUNCH_ARGS: '--disable-gpu'
        with:
          build: npm install cypress --save-dev
-         command: tesy
+         command: test
 
        
    
